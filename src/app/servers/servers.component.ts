@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   // selector: '[app-servers]',
   // selector: '.app-servers',
   selector:'app-servers',
-  template: '<app-server><app-server>',
+  templateUrl: './servers.component.html',
   styles:[`
   h2 {
     color:blue;
